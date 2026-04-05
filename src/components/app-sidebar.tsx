@@ -6,6 +6,8 @@ import {
   Bell,
   Wallet,
   TrendingUp,
+  ArrowLeftRight,
+  Brain,
   Settings,
   LogOut,
 } from "lucide-react";
@@ -37,6 +39,8 @@ const navItems = [
   { title: "Markets", icon: TrendingUp, href: "/markets" },
   { title: "Tax Report", icon: FileText, href: "/tax" },
   { title: "Alerts", icon: Bell, href: "/alerts" },
+  { title: "Compare", icon: ArrowLeftRight, href: "/compare" },
+  { title: "AI Value", icon: Brain, href: "/value" },
 ];
 
 export function AppSidebar() {
